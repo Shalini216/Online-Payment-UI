@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Properties for main-div */
+.main_div{
+    
+    background-color:rgb(43, 159, 226);
+    height: 600px;
+    width: 500px;
+    /* text-align: center; */
+    position: absolute;
+    top: 10%;
+    left: 35%;
+}
+.main_div h3{
+    text-align: center;
+    margin: 5px 0px ;
+}
+/* Properties for price box */
+.price{
+    border: 3px solid rgb(26 138 215);
+    border-radius: 30px;
+    width: 250px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    padding: 18px 0px 0px 0px;
+    background-color: rgb(26 138 215);
+   
+}
+.price h3{
+    font-size: 30px;
+    margin: 6px 0px 18px 0px;
+    color: #60100a;
+}
+
+/* Properties for paypal and net banking box */
+.payment-btn{
+     border: none;
+    width: 250px;
+    height:30px;
+    align-items: center;
+    margin:5px 120px;
+    background-color: rgb(26 138 215);
+    cursor: pointer;
+}
+/* Properties for card*/
+.card{
+    border: 3px solid rgb(26 138 215);
+    width: 250px;
+    height: 300px;
+    margin:5px 120px;
+    padding: 18px 0px 0px 10px;
+    background-color: white
+}
+.card-number-div, .card-holder-div{
+    margin-top: 10px ;
+    display: inline-block;
+    width: 230px;
+}
+.date-field-div{
+    margin-top: 10px ;
+}
+.cvv-field-div{
+    margin-top: 10px ;
+    float: right;
+}
+.card-number, .card-holder{
+    width:240px;
+}
+.cvv-field, .date-field{
+    width: 80px;
+}
+.card input{
+    border: 2px solid grey;
+    height: 22px;
+    padding: 3px;
+}
+.pay-btn{
+    margin-top: 10px;
+    border: none;
+    width: 240px;
+    height:30px;
+    background-color: rgb(26 138 215);
+    cursor: pointer;
+}
+
+

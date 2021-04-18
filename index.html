@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Payment </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main_div">
+        <h3>CHECK OUT</h3>
+        <div class="price">
+            <p>Total price is:</p>  
+            <h3>2000$</h3>
+            <p>Pay to :</p>
+        </div>
+        <div class="button-box">
+        <button class="payment-btn">Pay using PayPal</button>
+        <button class="payment-btn">Pay using Net Banking</button>
+    </div>
+        <div class="card">
+            <p>Pay Using Credit Or Debit Card</p>
+            
+            <form action="">
+                <div class="card-number-div">
+               <label> Card number:</label><br>
+                <input type="text" name='card-number' class="card-number" placeholder="xxxx-xxxx-xxxx">
+            </div>
+                <div class="date-field-div">
+                <label> Expiry Date:</label><br>
+                <input type="text" name="month" class="date-field" placeholder="mm">
+                <input type="text" name="year" class="date-field" placeholder="yyyy">
+            </div>
+
+                <div class="cvv-field-div">
+                <label>CVV:</label> <br>
+                <input type="password" name='cvv' class="cvv-field">
+            </div>
+           <div class="card-holder-div">
+            <label> Card Holder Name:</label><br>
+            <input type="text" name='card-holder' class="card-holder" placeholder="xxxx-xxxx-xxxx">
+        </div>
+
+                <button type="submit" class="pay-btn"> Pay Now </button>
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>
